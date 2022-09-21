@@ -1,15 +1,16 @@
-
 body {
     color: #212121;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-/* portfolio */
+
 .logo {
-    Font size: 26px;
-    Line height: 31px;
-    Line height: 100%;
-    Align: Left;
-    Vertical align: Top;
-    Letter spacing: 3%;
+    font-family: 'Raleway';
+    color: #212121;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-web {
+    color: #2196f3;
 }
