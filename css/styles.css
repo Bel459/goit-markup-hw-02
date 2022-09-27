@@ -12,6 +12,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 .logo-web {
     color: #2196f3;
@@ -24,6 +25,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .head-nav-blu {
     color: #2196F3;
@@ -31,6 +33,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .telephone-number {
     color: #757575;
@@ -38,6 +41,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 /* footer  */
