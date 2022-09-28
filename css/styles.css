@@ -20,11 +20,7 @@ ul {
 .logo-web {
     color: #2196f3;
 }
-.logo-studio :hover,
-.logo-studio :active,
-.logo-studio :focus {
-    color: #212121;
-}
+
 /* head-nav */
 .head-nav,
 .contact {
@@ -95,7 +91,6 @@ footer {
     line-height: 1.62;
     cursor: pointer;
     background: #F5F4FA;
-    border: 0;
 }
 
 .portfolio-mainn {
@@ -127,3 +122,49 @@ footer {
 
 
 /* main-page */
+
+.main-section {
+    background: #2F303A;
+}
+.top-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #ffffff;
+}
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #ffffff;
+    background-color:#2196F3;
+}
+
+.mid-work {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.mid-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    color: #757575;
+}
+
+.main-head-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+/* наша команда  */
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.team-profession {
+    font-size: 16px;
+    line-height: 1.18px;
+    color: #757575;
+}
