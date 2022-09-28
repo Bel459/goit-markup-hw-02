@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
+ul {
+    list-style: none;
+}
 
 /* header */
 .logo {
@@ -17,28 +20,43 @@ body {
 .logo-web {
     color: #2196f3;
 }
+.logo-studio :hover,
+.logo-studio :active,
+.logo-studio :focus {
+    color: #212121;
+}
 /* head-nav */
 .head-nav,
 .contact {
-    color: #212121;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    color: #212121;
 }
-.head-nav :focus, :hover, :active{
+.head-filtr :focus,
+.head-filtr :hover,
+.head-filtr :active{
+    color: #2196F3;
+}
+.contact :hover,
+.contact :focus,
+.contact :active {
     color: #2196F3;
 }
 
-.telephone-number {
+
+.head-nav-telephone {
+    text-decoration: none;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
+
+
 
 /* footer  */
 footer {
@@ -65,17 +83,27 @@ footer {
 }
 
 /* portfolio main */
+.portfolio-filter :active,
+.portfolio-filter :hover,
+.portfolio-filter :focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
 
 .button {
     font-size: 16px;
     line-height: 1.62;
-}
-.button :hover, :focus {
-    font-size: 16px;
-    line-height: 1.62;
+    cursor: pointer;
+    background: #F5F4FA;
+    border: 0;
 }
 
-
+.portfolio-mainn {
+    text-decoration: none;
+}
+.portfolio-contend {
+    text-decoration: none;
+}
 .portfolio-img {
     width: 370px;
     height: 294px;
