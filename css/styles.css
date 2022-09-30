@@ -6,6 +6,8 @@
     --back-color:#2F303A;
     --button-hero-color:#2196f3;
     --hero-text-color:#ffffff;
+    --button-back-color: #F5F4FA;
+    --active-page-color:#2196f3;
 }
 body {
     color: var(--primary-text-color);
@@ -17,6 +19,14 @@ ul {
 }
 
 /* header */
+.active-page {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--active-page-color);
+}
 .logo {
     font-family: 'Raleway';
     color: var(--primary-text-color);
@@ -30,8 +40,7 @@ ul {
 }
 
 /* head-nav */
-.head-nav,
-.contact {
+.head-nav {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -39,6 +48,15 @@ ul {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+.contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
 .head-filtr :focus,
 .head-filtr :hover,
 .head-filtr :active{
@@ -62,6 +80,7 @@ footer {
     text-decoration: none;
 }
 .footer-contact :focus,
+.footer-contact :active
 .footer-contact :hover {
     color: var(--hover-text-color)
 }
@@ -73,8 +92,9 @@ footer {
     line-height: 2;
     color:var(--hero-text-color);
 }
-.footer-adress :hover,
-.footer-adress :focus {
+.footer-list :hover,
+.footer-list :active,
+.footer-list :focus {
     color: var(--hover-text-color)
 }
 .footer-studio {
@@ -90,13 +110,18 @@ footer {
 .portfolio-filter :hover,
 .portfolio-filter :focus {
     color: var(--hero-text-color);
+    background-color: var(--hover-text-color);
 }
 
 .button {
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
+    background: var(--button-back-color);
+    border: 0;
 }
+
+
 
 .portfolio-mainn {
     text-decoration: none;
